@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
+<link rel="stylesheet" href="style1.css" />
+<title>Protocols</title>
+</head> 
+<body>
+<h1>Protocols</h1>
+ 
+<p><dfn>Protocols</dfn> (or <dfn>communications protocols</dfn>) are agreed ways for to computers to communicate and exchange information. The Wikipedia page on <a href="https://en.wikipedia.org/wiki/Communications_protocol">communications protocols</a> contains much more information than we can cover here.</p>
+ 
+<section id="email">
+<h2>Email Protocols</h2>
+<p>There are several protocols that make email work:</p>
+<ul>
+<li><p><abbr title="Internet Message Access Protocol">IMAP</abbr> is used to fetch mail from the server so you can read it in clients like Thunderbird or on your phone.</p></li>
+<li><p><abbr title="Post Office Protocol">POP</abbr> is an older protocol that does the same job as IMAP, but is less flexible.</p></li>
+<li><p>The <abbr title="Simple Mail Transfer Protocol">SMTP</abbr> protocol is used to send email, either from a client program you are using, or from one mail server to another. SMTP has existed since the 1980s, but has been extended several times to add user authentication, encryption, and other features.</p>
+<p>SMTP is where most spam fighting happens: preventing fraudulent email from being sent the the ultimate goal.</p></li>
+</ul>
+</section>
+ 
+<section id="http">
+<h2>HTTP</h2>
+<p>The  <a href="https://en.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a> rests on the protocol <abbr title="Hypertext Transfer Protocol">HTTP</abbr>.</p>
+<p>HTTP is a client-server protocol. That means that an HTTP client (like a web browser, also called a &ldquo;user agent&rdquo;) contacts an HTTP server and makes a request. The request is likely a request for a particular web page available on that server. The server will respond with a response: often the contents of the web page that was requested.</p>
+<p>HTTP is often used to transfer <abbr title="Hypertext Markup Language">HTML</abbr> documents which we generally think of as &ldquo;web pages&rdquo;. HTML contains markup like <code class="html">&lt;em&gt;</code> and <code class="html">&lt;a href="http://example.com/"&gt;</code>.</p>
+<p>Every piece of content available on the web is called a <dfn>resource</dfn> and is available at a URL like <code class="url">http://example.com/somepage.html</code>.</p>
+</section>
+ 
+</body>
+</html>

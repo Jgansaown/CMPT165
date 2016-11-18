@@ -1,0 +1,9 @@
+body {
+	line-height: 1.4em;
+}
+svg {
+	border: black solid thin;
+}
+.form{
+	padding-bottom: 0.5em;
+}

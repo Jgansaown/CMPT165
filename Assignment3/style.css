@@ -1,0 +1,81 @@
+body {
+  	max-width: 40em;
+  	margin: 1em auto;
+  	line-height: 1.4;
+  	color: #333;
+}
+main {
+
+  	height: 600px;
+  	width: 600px;
+  	position: relative;
+  	overflow: hidden;
+  	border: thin solid black;
+}
+main>section {
+  	height: 600px;
+  	width: 600px;
+  	display: none;
+  	padding: 0em;
+  	position: absolute;
+  	border: thin solid black;
+
+  	background-color: white;
+}
+
+main p {
+	color: #eee;
+	font-size: 1.3em;
+	padding: 0em 1em;
+}
+.buttons {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+
+#page1 {
+	display: block;
+	background-image: url('slide1_background.png');
+}
+#page1 .spaceship {
+	position: absolute;
+	top: 320px;
+	left: 340px;
+}
+
+
+#page2 {
+	display: block;
+	left: 600px;
+	background-image: url('slide2_background.png');
+}
+#page2 > p {
+
+}
+#page2 .spaceship{
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+#page2 .ufo{
+	position: absolute;
+	top: 200px;
+	left: 480px;
+}
+#page2 #signal1 {
+	position: absolute;
+	top: 390px;
+	left: 150px;
+}
+#page2 #signal2 {
+	position: absolute;
+	top: 360px;
+	left: 150px;
+}
+#page2 #signal3 {
+	position: absolute;
+	top: 330px;
+	left: 150px;
+}

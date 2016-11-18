@@ -1,0 +1,60 @@
+body {
+	background-color: #fee;
+	line-height: 1.4;
+	color: #333;
+	margin: 0em;
+}
+
+header {
+	background-color: #eef;
+	padding: 0.1em 0em;
+}
+
+
+.game_container {
+	position: relative;
+	margin: 0em auto;
+	background-color: #fff;
+}
+
+svg	{
+	border: black solid thin;
+}
+
+button	{
+	border: none;
+}
+
+.score_container {
+	position: absolute;
+	top: 0em;
+	left: 2em;
+}
+
+
+.options_container {
+	display: none;
+	position: absolute;
+	top: 2em;
+	left: 2em;
+	font-size: 1.5em;
+	padding: 0.5em;
+	border: black solid thin;
+}
+.options_container p {
+	margin: 0em;
+}
+.options_container #start_Button {
+	font-size: 1em;
+}
+.options_container #difficulty_Textbox {
+	padding: 0em;
+	width: 4em;
+	font-size: 1em;
+}
+
+footer {
+	background-color: #eef;
+	height: max-content;
+	padding-bottom: 2em;
+}

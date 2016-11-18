@@ -1,0 +1,152 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css");
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+	background-color: white;
+}
+* {
+	box-sizing: border-box;
+}
+header {
+	background-color: white;
+	margin-bottom: 0.0em;
+}
+h1 {
+	font: 3em 'Oswald', sans-serif;
+}
+h2 {
+	font: 2em 'Oswald', sans-serif;
+	padding: 0.5em 0.5em;
+}
+h3 {
+	font: 1.5em 'Oswald', sans-serif;
+	padding: 0.5em  0.8em;
+}
+p {
+	font: 1em 'Playfair Display', serif;
+	padding: 0.5em 0.5em;
+}
+figcaption{
+	font: 1em 'Playfair Display', serif;
+}
+#title{
+	padding: 0.8em 0em;
+	height: 2.5em;
+}
+#logo {
+	float: left;
+	padding: 0.5em 0.6em;
+}
+.site-nav{
+	float: right;
+	position: relative;
+	top: 0em;
+}
+.site-nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+.site-nav li {
+	float: left;
+}
+.site-nav li a {
+	display: block;
+    padding: 1em 1em;
+    width: 10em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font: 1em 'Playfair Display', serif;
+}
+.site-nav a:hover {
+	background-color: #ccc;
+}
+
+
+#intro-card {
+	margin: 0em 0em;
+}
+#intro-card > .text-content {
+	float: left;
+	width: 60%;
+	text-align: center;
+
+	margin: 1em 0em;
+
+	position: absolute;
+	top: 20em;
+}
+#intro-card figure {
+	float: left;
+	
+	text-align: center;
+	position: relative;
+	left: 40%;
+	z-index: -1;
+}
+#intro-card figure img {
+	width: 100%;
+	height: auto;
+}
+
+
+.product {
+	float: left;
+	text-align: center;
+	margin: 1em;
+	border: 0.1em solid black;
+}
+#high-grades h2 {
+	margin-top: 0.5em;
+}
+.product {
+	margin-right: 5%;
+	margin-left: 5%
+}
+.name-gunpla {
+	font: 1em 'Playfair Display', serif;
+}
+.cost-gunpla {
+	font: 1em 'Playfair Display', serif;
+}
+#product-section{
+	padding-bottom: 1em;
+}
+
+.content-box p{
+	margin: 0em 1em;
+}
+.content-box h3{
+	margin: 0em 0.5em;
+}
+#contact-info {
+	float: left;
+	width: 20%;
+	margin-bottom: 2em;
+}
+#anime-background-info {
+	float: right;
+	width: 80%;
+}
+#anime-background-info .text-content{
+	float: left;
+	width: 60%;
+}
+article > figure {
+	float: left;
+	
+	text-align: center;
+}
+
+.bottom-box-shadow {
+	border-bottom: 0.1em solid black;
+}
+.clearfloat:after {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}

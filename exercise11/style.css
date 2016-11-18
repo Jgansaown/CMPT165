@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+  max-width: 40em;
+  line-height: 1.4;
+  margin: 1em auto;
+  padding: 0em 1em;
+  color: #333;
+}
+
+h1{
+	font: 2.5em 'Slabo 27px', serif;
+}
+svg {
+	margin: 1em 0em;
+	display: block;
+	background-color: #ff6;
+}
+
+.form{
+	font-size: 1.4em;
+}
+#grid_size {
+	width: 3em;
+	font-size: 0.8em;
+	padding: 0em;
+}
+#enter {
+	border: none;
+	background-color: #ccf;
+	font-size: 0.8em;
+	width: 5em;
+}
+#enter:hover {
+	background-color: #99f;
+}

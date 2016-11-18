@@ -1,0 +1,17 @@
+body > section {
+	margin: 1em 0;
+	padding: 0.5em;
+	border: thin #ccc solid; 
+
+	position: relative;
+	padding-left: 10em;
+}
+
+h2 {
+	position: absolute;
+	width:  6em;
+	font-size: 150%;
+
+	left: 0.5em;
+}
+

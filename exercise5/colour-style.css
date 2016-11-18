@@ -1,0 +1,23 @@
+div.cblock {
+  width: 4em;
+  height: 2em;
+  border: 1px solid black;
+}
+#a {
+  background-color: #00f;
+}
+#b {
+  background-color: #2f2;
+}
+#c {
+  background-color: #444;
+}
+#d {
+  background-color: #f30;
+}
+#e {
+  background-color: #730;
+}
+#f {
+  background-color: #1ae;
+}

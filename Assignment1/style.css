@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: #dcdcdc;
+}
+header {
+    background-color: #333;
+    padding-bottom: 1em;
+}
+section {
+	margin-left: 0.67em;
+	padding-bottom: 1em;
+}
+footer {
+	margin-left: 0.67em;
+}
+
+nav ul {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li {
+	float: left;
+	font: 1.1em 'Gentium Basic', serif;
+}
+nav li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+	background-color: gray;
+}
+
+h1 {
+	color: white;
+	padding-left: 0.5em;
+	font: 2.5em 'Open Sans', sans-serif;
+}
+h2 {
+	font: 2em 'Open Sans', sans-serif;
+}
+h3 {
+	font: bold 1em 'Open Sans', sans-serif;
+}
+
+
+p, ul#materials li, figcaption {
+	font: 1.2em 'Gentium Basic', serif;
+}
+
+figure {
+	margin-bottom: 2em;
+}
