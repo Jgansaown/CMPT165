@@ -8,7 +8,7 @@ setup = function() {
 	gameHeight = $(window).height()*0.8
 	$('.game_container').height(gameHeight).width(gameWidth)
 	paper = Raphael('game_area', gameWidth, gameHeight)
-	
+
 	$('#difficulty_Textbox').val(1)
 
 	$('#value').html($('#color').val())
@@ -16,7 +16,7 @@ setup = function() {
 
 	//create_shape()
 	start_game()
-	
+
 	$('#test').click(asdasd)
 }
 $(document).ready(setup)
@@ -44,7 +44,7 @@ asdasd = function() {
 
 
 create_shape = function() {
-	
+
 	//create_rectangle(x,y,h,l,a,xf,yf,af)
 	//create_circle(x,y,r,xf,yf)
 	//create_square(x,y,l,a,xf,yf,af)
